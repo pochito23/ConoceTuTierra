@@ -1,16 +1,108 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-    <meta charset="UTF-8"
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Conoce Tu Tierra</title>
+  </head>
 
-    <body class="bg-cyan-300">
-        <header>
-            <h1 class="text-3xl font-bold text-center text-white">Conoce Tu Tierra | Ven a vacacionar en Honduras</h1>
-            <main>
-                
-            </main>
-        </header>
-    </body>
+  <body class="min-h-screen flex flex-col bg-[#f0fdfa]">
+
+    <header class="bg-[#173f36] px-6 py-8">
+      <h1 class="text-3xl font-bold text-center text-white">
+        Conoce Tu Tierra | Ven a vacacionar en Honduras
+      </h1>
+    </header>
+
+    <nav class="bg-gray-800 text-white">
+      <ul class="flex flex-wrap justify-center gap-8 px-6 py-4">
+        <li>
+          <a href="index.html" class="hover:text-cyan-300 duration-300">
+            Inicio
+          </a>
+        </li>
+
+        <li>
+          <a href="destinos.html" class="hover:text-cyan-300 duration-300">
+            Destinos
+          </a>
+        </li>
+
+        <li>
+          <a href="cultura.html" class="hover:text-cyan-300 duration-300">
+            Cultura
+          </a>
+        </li>
+
+        <li>
+          <a href="reservaciones.html" class="hover:text-cyan-300 duration-300">
+            Reservaciones
+          </a>
+        </li>
+
+        <li>
+          <a href="contacto.html" class="hover:text-cyan-300 duration-300">
+            Contacto
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <main class="flex-1 flex flex-col md:flex-row items-center gap-8 max-w-7xl mx-auto px-6 py-10">
+
+      <p class="text-xl font-bold text-gray-700 md:w-1/2">
+        Para disfrutar en esta semana morazánica, Honduras cuenta con muchos
+        lugares turísticos que puedes visitar, desde playas, montañas, ríos y
+        lagos. En este sitio web te mostraremos algunos de los destinos más
+        populares y hermosos que puedes explorar en Honduras. ¡Prepárate para
+        descubrir la belleza natural y cultural de nuestro país!
+      </p>
+
+      <img
+        class="w-full md:w-1/2 rounded-3xl"
+        src="src/img/destinos.jpeg"
+        alt="Lugares turísticos de Honduras"
+      />
+
+    </main>
+
+    <footer class="bg-gray-800 text-white px-6 py-6">
+      <div class="text-center">
+
+        <div class="flex flex-wrap justify-center gap-4 mb-4">
+          <a
+            href="https://www.facebook.com/ConoceTuTierra"
+            class="text-blue-400 hover:underline"
+          >
+            Facebook
+          </a>
+
+          <a
+            href="https://www.instagram.com/ConoceTuTierra"
+            class="text-pink-400 hover:underline"
+          >
+            Instagram
+          </a>
+
+          <a
+            href="https://www.twitter.com/ConoceTuTierra"
+            class="text-cyan-400 hover:underline"
+          >
+            Twitter
+          </a>
+        </div>
+
+        <p class="text-sm">
+          &copy; 2026 Conoce Tu Tierra. Todos los derechos reservados.
+        </p>
+
+        <p class="text-sm mt-2 text-gray-400">
+          Jose Ramon Corea | 20231003748 | ISC305 Programacion Web
+        </p>
+
+      </div>
+    </footer>
+
+  </body>
 </html>
